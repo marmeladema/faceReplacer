@@ -11,7 +11,6 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    std::cout << ui->frameListWidget->acceptDrops() << std::endl;
 }
 
 MainWindow::~MainWindow()

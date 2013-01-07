@@ -32,47 +32,13 @@
          <enum>QLayout::SetMinimumSize</enum>
         </property>
         <item>
-         <widget class="QFrameListWidget" name="frameListWidget">
+         <widget class="FrameListWidget" name="frameListWidget">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
-          <property name="dragEnabled">
-           <bool>true</bool>
-          </property>
-          <property name="dragDropOverwriteMode">
-           <bool>false</bool>
-          </property>
-          <property name="dragDropMode">
-           <enum>QAbstractItemView::InternalMove</enum>
-          </property>
-          <property name="defaultDropAction">
-           <enum>Qt::MoveAction</enum>
-          </property>
-          <property name="alternatingRowColors">
-           <bool>true</bool>
-          </property>
-          <property name="selectionMode">
-           <enum>QAbstractItemView::ExtendedSelection</enum>
-          </property>
-          <property name="movement">
-           <enum>QListView::Snap</enum>
-          </property>
-          <property name="sortingEnabled">
-           <bool>false</bool>
-          </property>
-          <item>
-           <property name="text">
-            <string>Test1</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>Test2</string>
-           </property>
-          </item>
          </widget>
         </item>
        </layout>
@@ -183,9 +149,9 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>QFrameListWidget</class>
+   <class>FrameListWidget</class>
    <extends>QListWidget</extends>
-   <header>qframelistwidget.h</header>
+   <header>framelistwidget.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

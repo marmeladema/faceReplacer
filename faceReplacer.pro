@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    qframelistwidget.cpp
+    framelistwidget.cpp
 
 HEADERS  += mainwindow.h \
-    qframelistwidget.h
+    framelistwidget.h
 
 FORMS    += mainwindow.ui
+
+LIBS    += -lmagic
